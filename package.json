@@ -1,0 +1,16 @@
+{
+  "name": "kirari-voice-pack-aishell3",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kirari 扩展包：中文 VITS 语音合成（AISHELL3，150 个音色，完全离线）",
+  "main": "bin/server.cjs",
+  "scripts": {
+    "selftest": "node scripts/selftest.mjs",
+    "build:installer": "node scripts/build-installer.mjs",
+    "ext:install": "node scripts/install.mjs",
+    "ext:install:docker": "node scripts/install.mjs --docker"
+  },
+  "dependencies": {
+    "sherpa-onnx-node": "^1.12.27"
+  }
+}

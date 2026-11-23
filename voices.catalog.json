@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "libs": [
+    {
+      "id": "aishell3",
+      "name": "AISHELL3 · 174 个中文音色",
+      "sizeBytes": 31559701,
+      "archive": "vits-icefall-zh-aishell3.tar.bz2",
+      "sources": [
+        {
+          "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-icefall-zh-aishell3.tar.bz2",
+          "primary": true
+        },
+        {
+          "url": "https://hf-mirror.com/k2-fsa/sherpa-onnx/resolve/main/tts-models/vits-icefall-zh-aishell3.tar.bz2",
+          "primary": false
+        }
+      ],
+      "license": "模型：AISHELL3 数据集（Apache 2.0 协议发布）；引擎：Apache-2.0",
+      "description": "多说话人中文语音库，男女声都有，换音色不换模型。"
+    },
+    {
+      "id": "huayan",
+      "name": "花燕 · 单音色女声",
+      "sizeBytes": 67217000,
+      "archive": "vits-piper-zh_CN-huayan-medium.tar.bz2",
+      "sources": [
+        {
+          "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-zh_CN-huayan-medium.tar.bz2",
+          "primary": true
+        },
+        {
+          "url": "https://hf-mirror.com/rhasspy/piper-voices/resolve/main/zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx",
+          "primary": false
+        }
+      ],
+      "license": "模型：训练集许可未明确（HuaYan TTS），个人使用无碍，商用前自行确认",
+      "description": "Piper 中文女声，自然度不错，但只有这一个音色。"
+    }
+  ]
+}

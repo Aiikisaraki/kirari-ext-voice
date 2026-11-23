@@ -1,0 +1,27 @@
+{
+  "id": "com.akisaki.voice.aishell3",
+  "name": "中文语音合成（AISHELL3 · 150 音色）",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "description": "本地 VITS 语音合成，内置 150 个中文音色，完全离线，不需要任何 Key。",
+  "engine": {
+    "runtime": "sidecar",
+    "protocol": "jsonrpc-stdio@1",
+    "launch": "host-node",
+    "command": "bin/server.cjs",
+    "requestTimeoutMs": 60000,
+    "idleTimeoutMs": 300000
+  },
+  "contributions": [
+    {
+      "type": "service",
+      "id": "speech.tts",
+      "title": "语音合成"
+    }
+  ],
+  "permissions": [],
+  "resources": {
+    "minRamMb": 512,
+    "gpuRecommended": false
+  }
+}

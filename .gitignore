@@ -1,0 +1,7 @@
+node_modules/
+release/
+selftest.wav
+models/
+voices/
+*.log
+.DS_Store
